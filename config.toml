@@ -1,0 +1,38 @@
+baseurl = "http://olivia.gomez.me.uk/"
+title = "Olivia Gomez"
+theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Olivia Gomez"
+googleAnalytics = "XXX"
+
+[Author]
+    name = "Olivia Gomez"
+    profile = "https://google.com/+XXX"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Olivia Gomez"
+    description = "Mezzo-soprano"
+    linkedin = "https://linkedin.com/in/XXX/"
+    twitter = "https://twitter.com/ojgomez_mezzo"
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "News & Events"
+    url = "/post/"
+    weight = 1
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 3
